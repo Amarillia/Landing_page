@@ -1,3 +1,45 @@
+body{
+    margin: 0;
+}
+
 nav {
     position: fixed;
+    display: block;
+    right: 0;
+}
+
+header{
+    background-color: bisque;
+    height: 50px;
+}
+
+header img{
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 70px;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.priceCategories {
+    height: 300px;
+    display: flex;
+}
+
+#pricing .price {
+    width: 200px;
+    height: 50%;
+}
+
+@media only screen and (min-width: 700px){
+    section, div, form, iframe, footer{
+        margin: 0 50px;
+    }
 }
