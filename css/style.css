@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    text-align: center;
 }
 
 nav {
@@ -31,6 +32,7 @@ li {
 .priceCategories {
     height: 300px;
     display: flex;
+    justify-content: center;
 }
 
 #pricing .price {
