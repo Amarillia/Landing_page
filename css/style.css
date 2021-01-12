@@ -12,6 +12,7 @@ nav {
 header{
     background-color: bisque;
     height: 50px;
+    text-align: left;
 }
 
 header img{
